@@ -1,5 +1,5 @@
 {{#if context.showCustomField}}
-  <span>|</span>
+  <span>|||</span>
   <a href='{{context.topic.lastUnreadUrl}}' class='{{context.customFieldName}}' data-topic-id='{{context.topic.id}}'>
     <span>{{i18n 'topic_custom_field.label' field=context.customFieldName value=context.customFieldValue}}</span>
   </a>
