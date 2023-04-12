@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-# name: discourse-topic-custom-fields
+# name: discourse-topic-custom-fields-test
 # about: Discourse plugin showing how to add custom fields to Discourse topics
 # version: 1.0
 # authors: Angus McLeod
 # contact email: angus@thepavilion.io
-# url: https://github.com/pavilionedu/discourse-topic-custom-fields
+# url: https://github.com/hocine199/hide-column-discourse
 
 enabled_site_setting :topic_custom_field_enabled
 register_asset 'stylesheets/common.scss'
