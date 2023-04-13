@@ -4,3 +4,5 @@
     <span>{{i18n 'topic_custom_field.label' field=context.customFieldName value=context.customFieldValue}}</span>
   </a>
 {{/if}}
+{{log '3'}}
+{{log @outletArgs}}
